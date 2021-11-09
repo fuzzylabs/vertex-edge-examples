@@ -1,0 +1,13 @@
+google_cloud_project:
+  project_id: vertex-edge-demo
+  region: europe-west1
+models:
+  hello-world:
+    endpoint_name: hello-world-endpoint
+    name: hello-world
+    serving_container_image_uri: europe-docker.pkg.dev/vertex-ai/prediction/tf2-cpu.2-6:latest
+    training_container_image_uri: europe-docker.pkg.dev/vertex-ai/training/tf-cpu.2-6:latest
+storage_bucket:
+  bucket_name: yet-another-fuzzy-testing-bucket-12345
+  dvc_store_directory: dvcstore
+  vertex_jobs_directory: vertex
