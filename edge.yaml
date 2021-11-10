@@ -1,3 +1,6 @@
+experiments:
+  gke_cluster_name: sacred
+  mongodb_connection_string_secret: sacred-mongodb-connection-string
 google_cloud_project:
   project_id: vertex-edge-demo
   region: europe-west1
